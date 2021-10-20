@@ -1,0 +1,451 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 2000px;
+  height: 920px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 130px;
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
+.Sleeves {
+  height: 630px;
+  width: 350px;
+  background-color: cornsilk;
+  margin: 25px;
+}
+.Sleeves p {
+  font-size: 2em;
+  position: relative;
+  top: 175px;
+  padding: 10px;
+  background-color: rgb(38, 75, 238);
+  color: white;
+}
+.navbuts,
+.navbuts1 {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  height: 110px;
+  width: 430px;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: -1550px;
+}
+.navbuts1 {
+  position: relative;
+  top: -1325px;
+}
+.buttonM,
+.buttonN,
+.buttonB2 {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  width: 80px;
+  height: 80px;
+  font-size: 0.75em;
+  position: relative;
+  top: 15px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.imgslider {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 580px;
+  border: 3px solid black;
+  border-radius: 30px;
+  background: linear-gradient(rgb(4, 151, 242), rgb(44, 4, 124));
+  position: relative;
+  left: -780px;
+  top: -1550px;
+}
+.imgslider1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 580px;
+  border: 3px solid black;
+  border-radius: 30px;
+  background: linear-gradient(#fae608, rgb(243, 69, 6));
+  position: relative;
+  left: -790px;
+  top: -1360px;
+}
+.imgslider p {
+  font-size: 3em;
+  color: white;
+}
+.slide {
+  visibility: visible;
+  width: 300px;
+  height: 400px;
+  margin: 40px 45px 35px 45px;
+}
+.dotgroup {
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: 140px;
+  top: -440px;
+  width: 50px;
+  height: 200px;
+}
+.dotgroup3 {
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  width: 50px;
+  height: 200px;
+}
+.dot {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.75em;
+  color: black;
+  margin: 7px;
+  background-color: rgb(235, 60, 8);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  transition: background-color 0.6s ease;
+  outline: none;
+}
+.dot2 {
+  -webkit-appearance: none;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.75em;
+  color: black;
+  margin: 7px;
+  background-color: rgb(235, 60, 8);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  transition: background-color 0.6s ease;
+  outline: none;
+}
+.dot3 {
+  -webkit-appearance: none;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.75em;
+  color: black;
+  margin: 7px;
+  background-color: rgb(8, 235, 16);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  transition: background-color 0.6s ease;
+  outline: none;
+}
+.dot:hover,
+.dot2:hover {
+  -webkit-appearance: none;
+  background-color: #faf206;
+  box-shadow: 0px 5px 5px 5px red;
+}
+.dot3:hover {
+  -webkit-appearance: none;
+  background-color: #faf206;
+  box-shadow: 0px 5px 5px 5px rgb(242, 255, 0);
+}
+.htext {
+  position: relative;
+  margin: 20px 30px;
+}
+.slideText {
+  width: 380px;
+  height: 80px;
+  position: relative;
+  left: -37px;
+  top: 45px;
+  background-color: black;
+  border: 3px solid rgb(6, 173, 240);
+  border-radius: 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 10px 20px 25px;
+  color: white;
+}
+footer {
+  width: 2000px;
+  height: 80px;
+  position: relative;
+  top: -1550px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+}
+.f1 {
+  position: relative;
+  top: -1340px;
+}
+footer a,
+footer p {
+  color: white;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+footer li {
+  margin: 10px 35px 0px 10px;
+}
+.icons a {
+  background-color: rgba(249, 6, 119, 1);
+  padding: 3px;
+  text-decoration: none;
+}
+.squind {
+  display: flex;
+  position: relative;
+  left: -300px;
+  top: -65px;
+  animation: flight 12s infinite;
+  animation-timing-function: cubic-bezier(0.4, 0.3, 0.5, 0);
+}
+@keyframes flight {
+  0% {
+    transform: translate(-1000px, 90px);
+  }
+  25% {
+    transform: translate(250px, 150px);
+    transform: rotate(25deg);
+  }
+  35% {
+    transform: translate(550px, 350px);
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: translate(1350px, 450px);
+  }
+}
+.squind1 {
+  display: flex;
+  position: relative;
+  left: -300px;
+  top: -65px;
+  animation: flight 12s infinite;
+  animation-timing-function: cubic-bezier(0.4, 0.3, 0.5, 0);
+}
+@keyframes flight {
+  0% {
+    transform: translate(-400px, 90px);
+  }
+  25% {
+    transform: translate(250px, 150px);
+    transform: rotate(25deg);
+  }
+  35% {
+    transform: translate(550px, 350px);
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: translate(1350px, 450px);
+  }
+}
+.rag1{
+  display: flex;
+  position: relative;
+  left: -300px;
+  top: -50px;
+  z-index: 1;
+  animation: flight1 12s infinite;
+  animation-timing-function: cubic-bezier(0.1, 0.5, 0.4, 1);
+}
+@keyframes flight1 {
+  0% {
+    transform: translate(150px, -1300px);
+  }
+  30% {
+    transform: translate(180px, -1450px);
+    transform: rotate(-45deg);
+  }
+  60% {
+    transform: translate(1080px, -1500px);
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: translate(1650px, -1600px);
+  }
+}
+.rag{
+  display: flex;
+  position: relative;
+  left: -300px;
+  top: -50px;
+  z-index: 1;
+  animation: flight1 12s infinite;
+  animation-timing-function: cubic-bezier(0.1, 0.5, 0.4, 1);
+}
+@keyframes flight1 {
+  0% {
+    transform: translate(150px, -1300px);
+  }
+  30% {
+    transform: translate(180px, -1450px);
+    transform: rotate(-45deg);
+  }
+  60% {
+    transform: translate(1080px, -1500px);
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: translate(1650px, -1600px);
+  }
+}
+.sasrag {
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: -200px;
+  z-index: -1;
+  animation: flight2 12s infinite alternate;
+}
+@keyframes flight2 {
+  0% {
+    transform: translate(-120px, -50px);
+  }
+  25% {
+    transform: translate(150px, -350px);
+  }
+  100% {
+    transform: translate(190px, -1200px) scale(1.5, 1.5);
+  }
+}
+.sasrag1 {
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: -200px;
+  z-index: -1;
+  animation: flight2 10s infinite alternate;
+}
+@keyframes flight2 {
+  0% {
+    transform: translate(-120px, -350px);
+  }
+  25% {
+    transform: translate(150px, -650px);
+  }
+  100% {
+    transform: translate(190px, -1200px) scale(1.5, 1.5);
+  }
+}
+
+.iyggt {
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: -200px;
+  z-index: -1;
+  animation: flight3 12s infinite alternate;
+}
+@keyframes flight3 {
+  0% {
+    transform: translate(-450px, -650px);
+  }
+  100% {
+    transform: translate(1200px, -650px);
+  }
+}

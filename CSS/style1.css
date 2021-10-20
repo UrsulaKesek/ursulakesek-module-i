@@ -1,0 +1,88 @@
+.oneb {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  width: 2000px;
+  height: 150px;
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 755px;
+}
+.seahorse {
+  animation: boomerangspin 15s ease-in 2s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(380px, 0px) scale(1, 1);
+  }
+  30% {
+    transform: translate(500px, 0px) scale(1.75, 1.75) rotate(0.5turn);
+  }
+  50% {
+    transform: translate(700px, 0px) scale(2, 2) rotate(-0.25turn);
+  }
+  75% {
+    transform: translate(900px, -400px) scale(5, 5);
+  }
+  100% {
+    transform: translate(1200px, -10px) rotate(0.75turn);
+  }
+}
+.seahorse1 {
+  animation: boomerangspin 10s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(380px, 0px) scale(1, 1);
+  }
+  30% {
+    transform: translate(500px, 0px) scale(1.75, 1.75) rotate(0.5turn);
+  }
+  50% {
+    transform: translate(700px, 0px) scale(2.5, 2.5) rotate(-0.25turn);
+  }
+  75% {
+    transform: translate(1000px, -450px) scale(7, 7);
+  }
+  100% {
+    transform: translate(1200px, -10px) rotate(0.5turn);
+  }
+}
+
+.jumper {
+  animation: boomerangs 10s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangs {
+  0% {
+    transform: translate(450px, -400px);
+  }
+  25% {
+    transform: translate(750px, 0px) scale(1.75, 1.75) rotate(0.25turn);
+  }
+  65% {
+    transform: translate(450px, -550px) scale(5, 5);
+  }
+  100% {
+    transform: translate(1300px, -10px) rotate(-0.75turn);
+  }
+}
+footer {
+  width: 2000px;
+  position: relative;
+  top: 100px;
+}

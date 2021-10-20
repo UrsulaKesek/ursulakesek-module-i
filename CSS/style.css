@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 369px;
+  height: 1000px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 120px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 7px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+h1 {
+  position: relative;
+  left: 50px;
+  top: 55px;
+  color: rgb(240, 255, 255);
+}
+figcaption {
+  visibility: hidden;
+}
+.row1,
+.row2,
+.row3 {
+  width: 375px;
+  height: 210px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.silhouettes {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(245, 77, 6);
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.silhouettes p {
+  position: relative;
+  top: 5px;
+  left: 2px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.button1,
+.button2,
+.button3 {
+  -webkit-appearance: none;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+  top: 6px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
+}
+.button2 {
+  position: relative;
+  top: 14px;
+}
+.button3 {
+  position: relative;
+  top: 15px;
+}
+.armholes {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  left: 16px;
+  top: 15px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.armholes p {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.sleeves {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(245, 77, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sleeves p {
+  position: relative;
+  top: 8px;
+  left: 17px;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.button4,
+.button5,
+.button6 {
+  -webkit-appearance: none;
+  position: relative;
+  left: 25px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
+}
+.button5 {
+  position: relative;
+  left: 30px;
+}
+.button6 {
+  position: relative;
+  left: 30px;
+}
+.button7,
+.button8,
+.button9 {
+  -webkit-appearance: none;
+  position: relative;
+  left: 30px;
+  top: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
+}
+.button9 {
+  position: relative;
+  top: 11px;
+}
+.icon1,
+.icon2,
+.icon3 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 18px;
+  box-shadow: 5px 5px 5px black;
+}
+.icon2,
+.icon3 {
+  top: 25px;
+}
+.measurements {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.measurements p {
+  position: relative;
+  top: 11px;
+  left: 25px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.choices {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(245, 77, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.choices p {
+  position: relative;
+  top: 12px;
+  left: 15px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.sleeves2 {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sleeves2 p {
+  position: relative;
+  top: 12px;
+  left: 8px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.icon4,
+.icon5,
+.icon6,
+.icon7,
+.icon8,
+.icon9 {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  left: 7px;
+  top: 22px;
+  box-shadow: 5px 5px 5px black;
+}
+.necklines {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 28px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(245, 77, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.necklines p {
+  position: relative;
+  top: 15px;
+  left: 13px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.neckedges {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(247, 239, 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.neckedges p {
+  position: relative;
+  top: 15px;
+  left: 8px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.ne-ribbing {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  top: 15px;
+  left: 5px;
+  border: 3px solid rgb(65, 126, 3);
+  background-color: rgb(245, 77, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ne-ribbing p {
+  position: relative;
+  top: 15px;
+  left: 1px;
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 4px;
+}
+.seahorse {
+  padding: 4px;
+}
+.seahorse1 {
+  padding: 4px;
+  position: relative;
+  left: 200px;
+}
+.jumper {
+  padding: 4px;
+  position: relative;
+  left: -20px;
+}
+footer {
+  width: 400px;
+}

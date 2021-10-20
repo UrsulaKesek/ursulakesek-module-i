@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 400px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 390px;
+  height: 130px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  font-size: 1.25em;
+  color: azure;
+}
+.htext9 {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  font-size: 1em;
+  color: azure;
+}
+h3 {
+  position: relative;
+  top: -20px;
+}
+
+.Sleeves {
+  height: 400px;
+  width: 350px;
+  background-color: cornsilk;
+  margin: 25px;
+}
+.Sleeves p {
+  font-size: 2em;
+  position: relative;
+  top: 175px;
+  padding: 10px;
+  background-color: rgb(38, 75, 238);
+  color: white;
+}
+.armshapes {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 3px;
+}
+.armshapes p {
+  visibility: visible;
+  position: relative;
+  left: 5px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.armbuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 520px;
+}
+#armpic1 {
+  box-shadow: 5px 5px 5px black;
+}
+.arm {
+  width: 250px;
+  height: 535px;
+  background-color: rgb(125, 5, 67);
+}
+
+span {
+  color: white;
+  position: relative;
+  left: 25px;
+}
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE,
+.buttonF {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(255, 0, 225),
+    rgb(250, 250, 3),
+    rgb(255, 0, 225)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
+.buttonX,
+.buttonY {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.buttonY {
+  -webkit-appearance: none;
+  left: 60px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.buttonM,
+.buttonN,
+.buttonB2{
+  -webkit-appearance:none; 
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(255, 0, 225),
+    rgb(250, 250, 3),
+    rgb(255, 0, 225)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
+.choice1,
+.choice2,
+.choice3,
+.choice4,
+.choice5,
+.choice10 {
+  height: 50px;
+  background-color:rgb(44,4,124);
+  margin-top: 45px;
+  margin-left: 25px;
+}
+.choice10{
+  position: relative;
+  left:-20px;
+  top:-10px;
+}
+.choice1 textarea,
+.choice2 textarea,
+.choice3 textarea,
+.choice4 textarea,
+.choice5 textarea{
+  -webkit-appearance: none;
+  position: relative;
+  top: 5px;
+  left: 15px;
+  background-color: rgb(245, 185, 55);
+  font-size: 16px;
+  font-weight: bold;
+}
+.choice10 textarea{
+  -webkit-appearance: none;
+  position: relative;
+  top:15px;
+  width:350px;
+}
+.details{
+  border:5px solid pink;
+  width:375px;
+  height:800px;
+  position: relative;
+  left:-10px;
+}
+.details h2{
+  color:white;
+}
+.columnleft{
+  display:flex;
+  flex-direction:column;
+  width:160px;
+  position: relative;
+  top:30px;
+  color:white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.columnright{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  position: relative;
+  top:30px;
+  color:white;
+  font-size: 1em;
+}
+.mail {
+  height: 40px;
+  background-color:rgb(44,4,124);
+  margin-left: 25px;
+  padding: 0px 3px 0px 6px;
+  color: white;
+  position: relative;
+  top:-488px;
+}
+.navbuts,
+.navbutsc,.navbutsM,.navbuts10 {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  height: 110px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navbutsc{
+  position: relative;
+  left:0px;
+  width:420px;
+}
+.navbutsM{
+  position: relative;
+  left:0px;
+  top:30px;
+  width:420px;
+}
+.navbuts10{
+  position: relative;
+  top:325px;
+  left:1px;
+  width:400px;
+}
+#island {
+  position: relative;
+  top: 20px;
+}
+#baloon {
+  position: relative;
+  top: 10px;
+}
+.oneb {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  width: 450px;
+  height: 120px;
+}
+.measurements{
+  border:5px solid greenyellow;
+  width:390px;
+  height:1250px;
+  position: relative;
+  left:5px;
+  padding:25px;
+}
+.sizes{
+  display:block;
+  position: relative;
+  left:35px;
+  top:20px;
+}
+.sizes1{
+display:none;
+}
+
+.chest,.waist,.hip,.armwrist{
+  display:flex;
+  flex-direction: column;
+  border:3px solid pink;
+  padding:20px 30px 15px;
+  background-color: rgb(96, 24, 242); 
+}
+.measurements h3{
+  font-size: 1.25em;
+  color:white;
+}
+.measurements p{
+  font-size: 1.5em;
+  color:white;
+}
+.measurements h2{
+  color:greenyellow;
+}
+.instructions{
+  background-color:rgb(44,4,124);
+  padding:10px;
+  margin:20px;
+}
+input{
+  font-size:1.5em;
+  margin:5px 10px;
+  padding:
+    10px 10px;
+}
+footer {
+  width: 450px;
+}
+.choices{
+  position: relative;
+  top:-15px;
+}
+.f2{
+  position: relative;
+  width:420px;
+  top:5px;
+}
+.f10{
+  position: relative;
+  top:300px;
+  width:400px;
+}

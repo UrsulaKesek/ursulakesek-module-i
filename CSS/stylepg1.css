@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 400px;
+  height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 130px;
+  margin: 10px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  width: 400px;
+  height: 130px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  width: 400px;
+  height: 130px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.logo1 img {
+  display: none;
+}
+.htext {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
+.silshapes {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 6px;
+}
+.silshapes p {
+  visibility: visible;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0px 30px;
+}
+.silbuts {
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 520px;
+}
+.silbuts a {
+  text-decoration: none;
+}
+.butanim a {
+  text-decoration: none;
+}
+#silpic {
+  box-shadow: 5px 5px 5px black;
+}
+.sil {
+  width: 268px;
+  height: 520px;
+  background-color: rgb(80, 2, 119);
+}
+span {
+  color: white;
+  position: relative;
+  left: 25px;
+}
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE,
+.buttonF {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  cursor:pointer;
+  outline:none;
+}
+.buttonX,
+.buttonY {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.buttonY {
+  -webkit-appearance: none;
+  position: relative;
+  left: 60px;
+  background-color: lightgreen;
+  color: black;
+}
+.buttonM,
+.buttonN {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 60px;
+  top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.buttonN {
+  position: relative;
+  left: 180px;
+}
+.buttonT {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: relative;
+  left: 20px;
+  background-image: url("clock70x70-1.png");
+  color: white;
+  font-size: 1em;
+  animation: bunjy 10s infinite;
+  animation-direction: alternate;
+}
+@keyframes bunjy {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(400px, -5px);
+  }
+}
+.timer p {
+  color: white;
+  margin: 0px 20px;
+}
+
+.clockdate-wrapper {
+  position: relative;
+  left: 400px;
+  top: -200px;
+  background-color: rgb(7, 210, 245);
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+#clock {
+  background-color: rgb(242, 4, 175);
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #fff;
+}
+#clock span {
+  color: black;
+  text-shadow: 0px 0px 1px #333;
+  font-size: 20px;
+  position: relative;
+  top: -27px;
+  left: -10px;
+}
+#date {
+  background-color: black;
+  letter-spacing: 10px;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: white;
+  padding: 3px;
+}
+
+.timer {
+  background-color: rgb(66, 53, 245);
+  width: 400px;
+}
+.timer p {
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 140px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  list-style: none;
+  position: relative;
+  left: 100px;
+}
+footer p {
+  position: absolute;
+  left: 90px;
+  top: 975px;
+}

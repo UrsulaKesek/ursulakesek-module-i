@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="design,jumpers,knitting,silhouettes,sleeves"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" />
+    <link
+      rel="stylesheet"
+      href="CSS/stylepg1.css"
+      media="screen and (max-width:399px)"
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/stylepg1a.css"
+      media="screen and (min-width:400px)"
+    />
+    <link rel="stylesheet" href="CSS/footer.css" media="screen" />
+    <link
+      rel="icon"
+      type="image/gif"
+      sizes="32x32"
+      href="Images/U.Knit32x32.gif"
+    />
+    <link rel="apple-touch-icon" href="Images/uknit.png" />
+
+    <title>Si1houettes</title>
+  </head>
+  <body>
+    <section class="Outlines">
+      <header>
+        <div class="logo">
+          <img src="Images/U.Knit1.jpg" alt="logo" />
+        </div>
+        <div class="htext">
+          <h2 class="pg1">Silhouettes</h2>
+          <p>Choose A,B,C,D, or E.</p>
+          <p>X Change choice or Tick</p>
+        </div>
+      </header>
+      <div class="silshapes">
+        <div class="silbuts">
+          <button class="buttonA" onclick="animateImage();">A</button>
+
+          <button class="buttonB" onclick="replaceImage();">B</button>
+
+          <button class="buttonC" onclick="replaceImageb();">C</button>
+
+          <button class="buttonD" onclick="replaceImagec();">D</button>
+
+          <button class="buttonE" onclick="replaceImaged();">E</button>
+
+          <button class="buttonF" onclick="replaceImagee();">F</button>
+        </div>
+        <div class="sil">
+          <img
+            id="silpic"
+            src="Images/Silhouettes outlines 250 x .png"
+            alt="silhouettes"
+          />
+          <img
+            id="sil1a"
+            src="Images/sil1a.png"
+            alt="silhouette style A straight"
+          />
+          <img
+            id="sil1b"
+            src="Images/sil1b.png"
+            alt="silhouette style B fitted"
+          />
+          <img
+            id="sil1c"
+            src="Images/sil1c.png"
+            alt="silhouette style C tapered"
+          />
+          <img
+            id="sil1d"
+            src="Images/sil1d.png"
+            alt="silhouette style D a-line"
+          />
+          <img
+            id="sil1e"
+            src="Images/sil1e.png"
+            alt="silhouette style E Icelandic yoke"
+          />
+          <img id="silor" src="Images/silor.png" alt="silhouettes" />
+
+          <p>Silhouettes:</p>
+          <p>A:Straight B:Fitted C:Tapered</p>
+          <p>D:A-Line E:Icelandic Yoke</p>
+
+          <div class="butanim">
+            <a href="silhouettes.html">
+              <button class="buttonX" onclick="stopAnimation();">X</button
+              ><span>Change choice</span></a
+            >
+            <a href="choices.html">
+              <button class="buttonY" onclick="stopAnimation();">√</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="logo1">
+        <img src="Images/U.Knit1.jpg" alt="logo" />
+        <a href="index.html"> <button class="buttonM">Main</button></a>
+        <a href="armholes.html"> <button class="buttonN">Next</button></a>
+      </div>
+
+      <div class="timer">
+        <p>Click the clock to get the time</p>
+        <a href="clock.html">
+          <button class="buttonT" aria-label="clock-button"></button
+        ></a>
+      </div>
+      <footer>
+        <ul>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Facebook.png" width="30px" alt="Facebook Logo"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Pinterest.png" width="30px" alt="Pinterest Logo"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Github.png" width="30px" alt="Github Logo"
+            /></a>
+          </li>
+        </ul>
+        <p>
+          &#9400; Ursula Kesek 2020
+          <span>
+            <a
+              href="https://www.vecteezy.com/vector-art/95039-free-social-media-icons"
+            >
+              Icons</a
+            ></span
+          >
+        </p>
+      </footer>
+    </section>
+    <script src="JS/anim.js"></script>
+  </body>
+</html>

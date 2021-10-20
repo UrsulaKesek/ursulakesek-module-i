@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="design,jumpers,knitting,silhouettes,sleeves"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/armholesdt.css"
+      media="screen and (min-width:400px)"
+    />
+    <link
+      rel="stylesheet"
+      href="CSS/armholesm.css"
+      media="screen and (max-width:399px)"
+    />
+    <link rel="stylesheet" href="CSS/footer.css" media="screen" />
+    <link
+      rel="icon"
+      type="image/gif"
+      sizes="32x32"
+      href="Images/U.Knit32x32.gif"
+    />
+    <link rel="apple-touch-icon" href="Images/uknit.png" />
+    <title>Armhole Styles</title>
+  </head>
+  <body>
+    <section class="Armholes">
+      <header>
+        <div class="logo">
+          <img src="Images/U.Knit1.jpg" alt="logo" />
+        </div>
+        <div class="htext">
+          <h3>Armhole Shapes</h3>
+          <p>Choose A,B,C,D, or E.</p>
+        </div>
+      </header>
+      <main class="armshapes">
+        <div class="armbuts">
+          <button class="buttonA" onclick="animateImage();">A</button>
+
+          <button class="buttonB" onclick="replaceImagea(500,);">B</button>
+
+          <button class="buttonC" onclick="replaceImageb();">C</button>
+
+          <button class="buttonD" onclick="replaceImagec();">D</button>
+
+          <button class="buttonE" onclick="replaceImaged();">E</button>
+
+          <button class="buttonF" onclick="replaceImagee();">F</button>
+        </div>
+        <div class="arm">
+          <img id="armpic" src="Images/armpic.png" alt="armholes" />
+          <img id="arm1a" src="Images/arm1a.svg" alt="armhole style A raglan" />
+          <img id="arm1b" src="Images/arm1b.svg" alt="armhole style B set-in" />
+          <img
+            id="arm1c"
+            src="Images/arm1c.svg"
+            alt="armhole style C Icelandic yoke"
+          />
+          <img
+            id="arm1d"
+            src="Images/arm1d.svg"
+            alt="armhole style D  saddle shoulder"
+          />
+          <img
+            id="arm1e"
+            src="Images/arm1e.svg"
+            alt="armhole style E square indented"
+          />
+          <img id="armpic3" src="Images/armpic3.png" alt="armholes" />
+
+          <p>Armholes:</p>
+          <p>A:Raglan B:Set-In C:Icelandic-Yoke</p>
+          <p>D:Saddle-Shoulder E:Square-Indented</p>
+
+          <div class="butanim">
+            <button class="buttonX" onclick="stopAnimation();">X</button
+            ><span>stops animation</span>
+            <a href="choices.html">
+              <button class="buttonY" onclick="stopAnimation();">√</button></a
+            >
+          </div>
+        </div>
+      </main>
+      <aside class="navbuts">
+        <a href="silhouettes.html"> <button class="buttonB2">Back</button></a>
+        <a href="index.html"> <button class="buttonM">Main</button></a>
+        <a href="sleeves1.html"> <button class="buttonN">Next</button></a>
+      </aside>
+      <aside class="oneb">
+        <img
+          id="island"
+          src="Images/island150x85.svg"
+          width="150px"
+          alt="desert island"
+        />
+        <img
+          id="diver"
+          src="Images/diver90x54.svg"
+          width="85px"
+          alt="motorised deep sea diver"
+        />
+        <img
+          id="mermaid"
+          src="Images/mermaid3.svg"
+          width="65px"
+          alt="mermaid"
+        />
+        <img id="baloon" src="Images/balloon.svg" width="85px" alt="baloon" />
+      </aside>
+      <footer>
+        <ul>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Facebook.png" width="30px" alt="Facebook Logo"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Pinterest.png" width="30px" alt="Pinterest Logo"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noreferrer">
+              <img src="Images/Github.png" width="30px" alt="Github Logo"
+            /></a>
+          </li>
+        </ul>
+        <p>
+          &#9400; Ursula Kesek 2020
+          <span>
+            <a
+              href="https://www.vecteezy.com/vector-art/95039-free-social-media-icons"
+            >
+              Icons</a
+            ></span
+          >
+        </p>
+      </footer>
+    </section>
+    <script src="JS/animarm.js"></script>
+  </body>
+</html>

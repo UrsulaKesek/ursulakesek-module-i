@@ -1,0 +1,460 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 1600px;
+  height: 1200px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 130px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  top: 30px;
+  font-size: 1.25em;
+  color: azure;
+}
+.htext9 {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
+.Sleeves {
+  height: 630px;
+  width: 350px;
+  background-color: cornsilk;
+  margin: 25px;
+}
+.Sleeves p {
+  font-size: 2em;
+  position: relative;
+  top: 175px;
+  padding: 10px;
+  background-color: rgb(38, 75, 238);
+  color: white;
+}
+.armshapes {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  margin: 3px;
+}
+.armshapes p {
+  visibility: visible;
+  width: 170px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.armbuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 120px;
+  height: 520px;
+  position: relative;
+  top: 10px;
+}
+#armpic1 {
+  box-shadow: 5px 5px 5px black;
+}
+.arm {
+  width: 250px;
+  height: 535px;
+  background-color: rgb(125, 5, 67);
+}
+span {
+  color: white;
+  position: relative;
+  left: 35px;
+  top: 30px;
+}
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE,
+.buttonF,
+.buttonM,
+.buttonN,
+.buttonB2 {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(255, 0, 225),
+    rgb(250, 250, 3),
+    rgb(255, 0, 225)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+}
+.buttonX,
+.buttonY {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  top: 35px;
+  left: 20px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.buttonY {
+  -webkit-appearance: none;
+  left: 60px;
+  background-color: lightgreen;
+  color: black;
+}
+.buttonM,
+.buttonN,
+.buttonB2
+ {
+   -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  font-size: 1.5em;
+  position: relative;
+  top: 15px;
+}
+.submit{
+  -webkit-appearance: none;
+  width: 180px;
+  height: 80px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(255, 0, 225),
+    rgb(250, 250, 3),
+    rgb(255, 0, 225)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top:20px;
+}
+.choice1,
+.choice2,
+.choice3,
+.choice4,
+.choice10 {
+  height: 90px;
+  width: 400px;
+  background-color:rgb(44,4,124);
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+.choice10{
+  position: relative;
+  left:700px;
+  top:-600px;
+}
+.choice5 {
+  height: 100px;
+  width: 400px;
+  background-color:rgb(44,4,124);
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.choice1 textarea,
+.choice2 textarea,
+.choice3 textarea,
+.choice4 textarea,
+.choice10 textarea {
+  -webkit-appearance: none;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(245, 185, 55);
+  font-size: 16px;
+  font-weight: bold;
+}
+.choice5 textarea {
+  -webkit-appearance: none;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(245, 185, 55);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mail {
+  height: 120px;
+  width: 400px;
+  background-color:rgb(44,4,124);
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 15px 3px 2px 15px;
+  color: white;
+  font-size: 1.5em;
+}
+.measurements{
+  border:5px solid greenyellow;
+  width:1000px;
+  height:650px;
+  position: relative;
+  left:-290px;
+  padding:25px;
+}
+.measurements h3{
+  font-size: 1.5em;
+  color:white;
+}
+.measurements p{
+  font-size: 1.5em;
+  color:white;
+}
+.measurements h2{
+  color:greenyellow;
+}
+input{
+  font-size:1.5em;
+  margin:5px 10px;
+  padding:
+    10px 10px;
+}
+.chest,.waist,.hip,.armwrist{
+  display:flex;
+  flex-direction: row;
+  border:3px solid pink;
+  padding:20px 30px 15px; 
+}
+.sizes1{
+  position: relative;
+  left:1100px;
+  top:-550px;
+}
+.sizes{
+  display:none;
+}
+.navbuts,
+.navbutsc,.navbutsM,.navbuts10 {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  height: 110px;
+  width: 430px;
+  margin: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 90px;
+}
+.navbutsc {
+  top:-20px;
+}
+.navbutsM{
+  position: relative;
+  top:-500px;
+  left:280px;
+}
+.navbuts10{
+  position: relative;
+  left:120px;
+  top:-120px;
+}
+.oneb {
+  -webkit-appearance: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  width: 2000px;
+  height: 110px;
+  position: absolute;
+  left: 430px;
+  top: 800px;
+}
+.details{
+  border:5px solid pink;
+  width:600px;
+  margin:30px;
+  padding:10px 30px;
+  height:650px;
+}
+.details h2{
+  color:white;
+}
+.row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.columnleft{
+  display:flex;
+  flex-direction:column;
+  width:160px;
+  position: relative;
+  left:10px;
+  top:20px;
+  color:white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+.columnright{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  position: relative;
+  color:white;
+  font-size: 1em;
+}
+
+#diver {
+  animation: boomerang 8s infinite;
+}
+@keyframes boomerang {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(1250px, 0px);
+  }
+}
+#mermaid {
+  z-index: 1;
+  animation: squiggle 10s infinite;
+  animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+@keyframes squiggle {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0, -50px) scale(1);
+  }
+  30% {
+    transform: translate(40px, -100px);
+  }
+  45% {
+    transform: translate(0px, -250px) scale(2.5);
+  }
+  60% {
+    transform: translate(50px, -350px) scale(3);
+  }
+  75% {
+    transform: translate(0px, -450px) scale(3.5);
+  }
+  90% {
+    transform: translate(360px, -530px) scale(6.5);
+  }
+}
+#baloon {
+  animation: takeoff 15s infinite;
+}
+@keyframes takeoff {
+  0% {
+    transform: translate(-170px, -100px);
+  }
+  100% {
+    transform: translate(0px, -950px);
+  }
+}
+#island {
+  position: relative;
+  top: -80px;
+  left: 150px;
+}
+.choices {
+  width: 2000px;
+  position: relative;
+  top: -45px;
+}
+footer {
+  width: 2000px;
+  position: relative;
+  top: 60px;
+}
+.f2{
+  position: relative;
+  top:-525px;
+}
+.f10{
+  position: relative;
+  top:-125px;
+}

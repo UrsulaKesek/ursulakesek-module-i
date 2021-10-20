@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 1600px;
+  height: 1000px;
+}
+.logo {
+  margin: 25px 15px 25px 15px;
+  width: 350px;
+  height: 100px;
+  position: relative;
+  box-shadow: 5px 5px 5px black;
+}
+h1 {
+  background-color: rgb(44,4,124);
+  position: absolute;
+  width: 1000px;
+  left: 400px;
+  top: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  z-index: -1;
+}
+
+figcaption {
+  visibility: hidden;
+}
+h2 {
+  color: white;
+  width: 350px;
+  margin: 15px;
+  background-color: rgb(44,4,124);
+  padding: 5px;
+  text-align: center;
+}
+main {
+  width: 1400px;
+  margin: 15px;
+}
+h3 {
+  color: white;
+  padding: 25px 30px;
+  background-color: rgb(96, 24, 242);
+  border: 3px solid rgb(2, 231, 247);
+  width: 270px;
+  position: relative;
+  top: 30px;
+}
+aside {
+  height: 320px;
+  background-color: rgb(44,4,124);
+  margin: 15px;
+  width: 350px;
+}
+.go {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 130px;
+  top: 60px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.striped {
+  visibility: visible;
+  position: absolute;
+  left: 450px;
+  top: 300px;
+  animation: boomerangspin 7s ease-in 1s infinite;
+  animation-direction: alternate;
+}
+@keyframes boomerangspin {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0px, -750px);
+  }
+  50% {
+    transform: translate(700px, -250px);
+  }
+  75% {
+    transform: translate(400px, 75px) rotate(0.25turn);
+  }
+  100% {
+    transform: translate(10px, 0px) rotate(-0.25turn);
+  }
+}
+.letsgo p {
+  background-color: rgb(44,4,124);
+  position: absolute;
+  width: 1000px;
+  left: 400px;
+  top: 70px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  z-index: -1;
+}
+footer {
+  width: 2500px;
+  position: relative;
+  top: 10px;
+}

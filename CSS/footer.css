@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+footer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  height: 120px;
+}
+footer a,
+footer p {
+  color: white;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+footer li {
+  margin: 10px 35px 0px 10px;
+}
+.icons a {
+  background-color: rgba(249, 6, 119, 1);
+  padding: 3px;
+  text-decoration: none;
+}

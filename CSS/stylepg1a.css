@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(2, 231, 247))
+  );
+  margin: 0;
+  width: 1600px;
+  height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 375px;
+  height: 130px;
+  background-color: rgb(0, 255, 255);
+  margin: 10px;
+}
+.logo {
+  background-color: rgba(240, 255, 255, 0.6);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.logo1 img {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+.htext {
+  position: relative;
+  left: 10px;
+  font-size: 1em;
+  color: azure;
+}
+.silshapes {
+  width: 369px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 6px;
+}
+.silshapes p {
+  visibility: visible;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0px 30px;
+}
+.silbuts {
+  -webkit-appearance: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 120px;
+  height: 580px;
+}
+.silbuts a {
+  text-decoration: none;
+}
+.butanim a {
+  text-decoration: none;
+}
+#silpic {
+  box-shadow: 5px 5px 5px black;
+}
+.sil {
+  width: 268px;
+  height: 520px;
+  background-color: rgb(80, 2, 119);
+}
+
+span {
+  color: white;
+  position: relative;
+  left: 25px;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(96, 24, 242)),
+    to(rgb(37, 185, 239))
+  );
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 130px;
+  margin: 10px;
+}
+.buttonA,
+.buttonB,
+.buttonC,
+.buttonD,
+.buttonE,
+.buttonE,
+.buttonF {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 2.75em;
+  text-align: center;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.buttonX,
+.buttonY {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  left: 20px;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.buttonY {
+  -webkit-appearance: none;
+  position: relative;
+  left: 60px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.buttonM,
+.buttonN {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  border-radius: 50px;
+  background: linear-gradient(
+    rgb(106, 0, 255),
+    rgb(65, 212, 245),
+    rgb(106, 0, 255)
+  );
+  box-shadow: 5px 5px 5px black;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.buttonN {
+  position: relative;
+  left: 80px;
+}
+
+.buttonT {
+  -webkit-appearance: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: relative;
+  left: 20px;
+  background-image: url("clock70x70-1.png");
+  color: white;
+  font-size: 1em;
+  animation: bunjy 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes bunjy {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 650px);
+  }
+}
+.timer p {
+  color: black;
+  margin: 10px;
+  font-size: 1.5em;
+}
+.clockdate-wrapper {
+  position: relative;
+  left: 400px;
+  top: -200px;
+  background-color: rgb(7, 210, 245);
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+#clock {
+  background-color: rgb(242, 4, 175);
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #fff;
+}
+#clock span {
+  color: black;
+  text-shadow: 0px 0px 1px #333;
+  font-size: 20px;
+  position: relative;
+  top: -27px;
+  left: -10px;
+}
+#date {
+  background-color: black;
+  letter-spacing: 10px;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: white;
+  padding: 3px;
+}
+.timer {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  background: linear-gradient(
+    left top,
+    left bottom,
+    from(rgb(2, 231, 247)),
+    to(rgb(96, 24, 242))
+  );
+  position: relative;
+  left: 1350px;
+  top: -870px;
+  width: 100px;
+  height: 900px;
+}
+
+footer {
+  position: relative;
+  top: -900px;
+  width: 2000px;
+  height: 140px;
+}
+#star {
+  position: absolute;
+  left: 1050px;
+  z-index: (-1);
+  animation: starfishmove 15s infinite;
+  animation-direction: alternate;
+}
+@keyframes starfishmove {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, -150px);
+  }
+  100% {
+    transform: translate(100px, -150px) rotate(1turn);
+  }
+}
